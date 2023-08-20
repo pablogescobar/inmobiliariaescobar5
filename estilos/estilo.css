@@ -6,7 +6,7 @@
     
 }
 .logo{
-    width: 120px;
+    width: 60px;
 
 }
 
@@ -23,7 +23,7 @@
 
     
 .im1{
-    width: 100%;
+    width: 150%;
     overflow: hidden;
     
     
@@ -48,7 +48,7 @@ footer div{
     height: 40px;
     gap: 1rem;}
 .video{
-    width: 120%;
+    width: 150%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -201,6 +201,7 @@ body{
    filter: opacity(0.9);
    transform: scale(1.04);
 }
+
 .grid-container{
  display: grid;
  grid-template-columns: repeat( auto-fill, minmax( 452px, 1fr )) ;
@@ -211,11 +212,17 @@ padding: 30px;
 grid-auto-flow: dense;
 }
 
-@media screen and  (max-width: 450px){
+
+
+@media screen and  (min-width: 990px){
     .grid-container{
-        background-color: burlywood;
+        grid-template-columns: 1fr  1fr;
+        background-color: rgb(180, 206, 230);
     }
 } 
+
+
+
 
   /* pseudoclase/*/
 
