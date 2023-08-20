@@ -93,7 +93,10 @@ font-size: medium;
 }
 
 /*contacto*/
-
+.cont {
+    background: rgba(127, 255, 212, 0.095);
+   
+}
 *{
     
     margin: 0;
@@ -177,8 +180,8 @@ body{
 }
 .grid-container{
  display: grid;
- grid-template-columns: repeat( auto-fill, minmax( 435px, 1fr )) ;
-grid-auto-rows: minmax(200px, auto);
+ grid-template-columns: repeat( auto-fill, minmax( 452px, 1fr )) ;
+grid-auto-rows: minmax(198px, auto);
 gap: 10px;
 border-style: double;
 padding: 30px;
