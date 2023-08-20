@@ -103,17 +103,12 @@ text-decoration-line: underline;
 font-size: medium;
 }
 
-/*sobre nosotros*/
+/*sobre nosotross*/
 
 .h1 sobre_nosotros{
     text-decoration: underline;
 }
-.quienes{
 
-
-    text-align: center;
-    padding: 5em 0;
-}
 
 /*contacto*/
 .cont {
