@@ -121,7 +121,12 @@ font-size: medium;
     padding: 0;
     background-color: rgba(127, 255, 212, 0.105);
 }
-
+.form{
+    padding: 100px;
+    margin: 50px;
+    background-color: rgb(207, 236, 247);
+    color:rgb(23, 22, 22);
+}
 /*terrenos*/
 body{    
     background-color: rgba(127, 255, 212, 0.105);
