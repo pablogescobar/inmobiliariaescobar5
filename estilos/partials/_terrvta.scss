@@ -1,0 +1,82 @@
+/*terrenos*/
+body{    
+    background-color: rgba(127, 255, 212, 0.105);
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+ 
+.galery__item img {
+    width: 100%;
+}
+
+
+/*******ventas*****/
+
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(155, 186, 245);
+    border-radius: 100px;
+    transition: transform 0.2s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.grid-item:hover{
+   filter: opacity(0.9);
+   transform: scale(1.04);
+}
+
+
+.grid-container{
+    
+border:1px solid rgba(1, 1, 19, 0.875);
+height: 100vh;
+width: 100%;
+display: grid;
+gap: 1rem;
+grid-template-columns: repeat (4, 1fr);
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+grid-template-areas: 
+"item 1 item 2 item 3 item 4"
+"item 5 item 6 item 2 item 3"
+"item 2 item 3 item 4 item 5";
+
+}
+
+.grid-container img {
+    width: 20%;
+   
+   
+    
+}
+
+@media screen and (max-width: 480px){
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: 
+        "item 1"
+        "item 2"
+        "item 3"
+        "item 4"
+        "item 5"
+        "item 6"  ;
+    }
+ }
+
+
+
+  /* pseudoclase/*/
+
+.link:visited{
+   color: brown;
+}
+.linkk:hover{
+    color:rgb(0, 149, 255);
+    background-color: rgba(128, 255, 0, 0.172);
+
+} 

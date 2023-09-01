@@ -108,8 +108,54 @@ font-size: medium;
 .h1 sobre_nosotros{
     text-decoration: underline;
 }
+.operaciones{
+    padding: 2rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.operacion{
+    background-color: rgb(187, 212, 248);
+    padding: 2rem;
+     
+}
+.operacion__titulo{
+    background-color: rgba(51, 49, 48, 0.281);
+    font-weight: 600;
+}
+.operacion:hover{
+    background-color: rgb(74, 241, 182);
+}
+.wrapper{
+    height: 100vh;
+    display: grid;
+    place-items: center;
 
+}
+.typing-demo{
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
 
+}
+@keyframes typing {
+    from{
+        width:0
+    }
+    @keyframes blink {
+        50%{
+            border-color:transparent
+        }
+    }
+    
+}
+.quienes:hover{
+    background-color: rgb(226, 226, 246);
+}
 /*contacto*/
 .cont {
     background: rgba(127, 255, 212, 0.095);
@@ -127,6 +173,23 @@ font-size: medium;
     background-color: rgb(207, 236, 247);
     color:rgb(23, 22, 22);
 }
+.navi{
+   padding: 2rem;
+   display: flex;
+  
+    background-color: rgb(197, 235, 215);
+    background-image: linear-gradient(rgb(147, 167, 245), rgb(150, 224, 241));
+}
+.menucont{
+    transition: 2s;
+}
+.form{
+    transition: 2s;
+}
+.menulink:hover{
+    transform: translate(-30,-10px);
+}
+
 /*terrenos*/
 body{    
     background-color: rgba(127, 255, 212, 0.105);

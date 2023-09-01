@@ -1,0 +1,21 @@
+.operaciones{
+    padding: 2rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .operacion{
+    background-color: rgb(159, 191, 216);
+    padding: 2rem;
+
+
+    .&__titulo{
+        background-color:rgba(0, 0, 0, 0.34);
+        font-weight: 600;
+    }
+}
+&:hover{
+    background-color: color2;   
+}
+
+}
