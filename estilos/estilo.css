@@ -70,7 +70,7 @@ footer div{
     background-color:(127, 255, 212, 0.105)
 }
 .bod{
-    padding: 20px;
+    padding: 100px;
     background-color: rgba(127, 255, 212, 0.105);
 }
 .menu_alq{
@@ -86,9 +86,12 @@ h2{
 }
 .slide{
     margin-top:1rem;
+    
+    
     }
 
 .slide img{
+   
     height: 38vh;
 }
 
@@ -100,10 +103,34 @@ h2{
 }
 
 /*sobre nosotross*/
-
-.h1 sobre_nosotros{
-    text-decoration: underline;
+.noss{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+.h1titulo{
+    text-align: center;
+    font-family: lato;
+    margin: 50px 0px;
+    font-size: 1.8rem;
+} 
+
+   .nos {
+    width: 75vw;
+    max-width: 1000px;
+    min-width:320px;
+    margin: 10px;
+   }
+   .nos img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15 15 15 5);
+   }
+   .quienes{
+    margin: 10px;
+   }
+
+
 .operaciones{
     padding: 2rem;
     gap: 2rem;
@@ -138,17 +165,7 @@ h2{
     font-size: 2em;
 
 }
-@keyframes typing {
-    from{
-        width:0
-    }
-    @keyframes blink {
-        50%{
-            border-color:transparent
-        }
-    }
-    
-}
+
 .quienes:hover{
     background-color: rgb(226, 226, 246);
 }
@@ -263,7 +280,7 @@ grid-template-areas:
 
 .grid-container{
     min-height: 100vh;
-    width: 95%;
+    width: 10098%;
     outline: 10px solid black;
     margin: 0 auto;
     display: grid;
@@ -285,9 +302,9 @@ grid-template-areas:
 
 .grid-container img{
     padding: 1px;
-    width: 375px;
+    width: 365px;
     height: 300px;
-    margin:1px;
+    margin:4px;
    
    
     
@@ -308,10 +325,7 @@ h3{
    color: rgb(24, 25, 25);
 
 }
-.body__vta{
-    background-color: rgb(158, 228, 201);
 
-}
 .ind__vta{
     color: rgb(23, 23, 21);
 }
