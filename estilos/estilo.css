@@ -2,8 +2,7 @@
 *{
     margin: 0%;
     padding: 0%;
-    background-color: rgba(127, 202, 255, 0.305);
-    
+    background-color: rgba(127, 202, 255, 0.305);    
 }
 .logo{
     width: 60px;
@@ -16,7 +15,6 @@
     justify-content: space-around;
     padding: 10px;
    
-
 }  
  
 .menu:hover{background-color: rgb(127, 202, 255, 0.305);}
@@ -24,15 +22,13 @@
     
 .im1{
     width: 110%;
-    overflow: hidden;
-    
+    overflow: hidden;    
     
 }
 .p{
     background-color: rgba(127, 255, 212, 0.751);
 }
-
-    
+ 
 
 footer div{
     
@@ -64,6 +60,11 @@ footer div{
 
 
 /*alquileres*/
+.carousel-inner{
+    padding: 50px;
+   
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -209,75 +210,19 @@ h2{
 
 .body__terrenos{
     background-color:rgba(127, 255, 212, 0.105);
-    padding: 10px;
+    padding: 60px;
+    margin-top: 10px;
+    
 }
  
 .galery__item img {
     width: 100%;
+    padding: 15px;
 }
 
 
-/*******ventas*****/
-*/*
-.grid-item{
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(155, 186, 245);
-    border-radius: 50px;
-    transition: transform 0.2s ease-in-out;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 
-}
-
-.grid-item:hover{
-   filter: opacity(0.9);
-   transform: scale(1.04);
-}
-
-
-.grid-container{
-
-border:1px solid rgba(1, 1, 19, 0.875);
-height: 100%;
-width: 100%;
-display: grid;
-gap: 2rem;
-grid-template-columns: repeat (1fr, 1fr);
-grid-template-rows: 1fr 1fr ;
-grid-template-areas: 
-"item 1 item 2 item 3 item 4"
-"item 5 item 6 item 2 item 3"
-"item 2 item 3 item 4 item 5";
-
-}
-
-.grid-container img {
-    width: 20%;
-   
-   
-    
-}
-
-@media screen and (max-width:80px){
-    .grid-container{
-        grid-template-columns: (1fr, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        grid-template-areas: 
-        "item 1"
-        "item 2"
-        "item 3"
-        "item 4"
-        "item 5"
-        "item 6"  ;
-    }
- }
-
-*/*/
-
+/*
 .grid-container{
     min-height: 100vh;
     width: 10098%;
@@ -290,7 +235,7 @@ grid-template-areas:
   
    
 }
-
+/**/
 .gallery__img{
     
     width: 100%;
@@ -342,8 +287,15 @@ h3{
 } 
 /*/casas**********************/
 .casasss{
-   padding: 5px;
+   padding: 15px;
 }
+.grid-layout{
+    width: 100%;
+}
+.galery__itemc img{
+    width: 98%;
+}
+
 /*/departamentos/*/
 
 .body__depto{
@@ -353,7 +305,7 @@ h3{
 
 }
 .section__depto{
-   
+   padding: 15px;
     display: grid;
 
     outline: 3px solid black;
